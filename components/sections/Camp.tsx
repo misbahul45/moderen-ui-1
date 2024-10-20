@@ -53,7 +53,7 @@ const Camp = () => {
       <div className='flex flex-col justify-between sm:absolute sm:bottom-5 sm:left-1/2 md:-translate-x-1/2 sm:-translate-x-12 sm:mx-0 sm:mt-0 mx-auto mt-8 sm:w-80 h-56 rounded-xl bg-green-600 text-slate-100 px-6 py-4 shadow-xl shadow-slate-800/45'>
         <h2 className='md:text-[28px] text-3xl'><b>Feeling Lost</b> And Not Knowing The way?</h2>
         <p className="text-xs">
-            Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That's why we are here for those of you who want to start an adventure
+            Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That&apos;s why we are here for those of you who want to start an adventure
         </p>
       </div>
     </section>

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 interface Props{
@@ -10,7 +11,7 @@ interface Props{
 const Button = ({type, title, icon, variant}:Props) => {
   return (
     <button type={type} className={`flex items-center gap-2 border rounded-full px-4 py-2 ${variant} transition-all duration-100`}>
-        {icon && <img src={icon} alt="icon" />}
+        {icon && <Image src={icon} alt="icon" width={20} height={20} />}
         <label className='font-semibold'>{title}</label>
     </button>
   )
